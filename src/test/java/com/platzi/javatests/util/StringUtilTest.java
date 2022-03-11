@@ -33,10 +33,12 @@ public class StringUtilTest {
     public void word_is_not_empty(){
         assertFalse(StringUtil.isEmpty("Hola"));
     }
+
     @Test
     public void string_not_emphy() {
         StringUtil.isEmpty(null);
     }
+    
     @Test
     public void quotationMarks_is_Empty(){
         assertTrue(StringUtil.isEmpty(""));
